@@ -59,7 +59,9 @@
 #define PM_GETPROCNR		(PM_BASE + 46)
 #define PM_GETSYSINFO		(PM_BASE + 47)
 
-#define NR_PM_CALLS		48	/* highest number from base plus one */
+#define PM_MYPS (PM_BASE + 48)                                                   /* SO-TASK-4 */
+                                                                                 /* SO-TASK-4 */
+#define NR_PM_CALLS		49	/* highest number from base plus one */              /* SO-TASK-4 */
 
 /*===========================================================================*
  *				Calls to VFS				     *
