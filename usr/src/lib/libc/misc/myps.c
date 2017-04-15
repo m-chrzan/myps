@@ -14,6 +14,7 @@ int myps(int uid) {
         return -1;
     }
 
+    m.m1_i1 = uid;
+
     return _syscall(pm_ep, PM_MYPS, &m);
 }
-
